@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ItemLog
+build_property.RootNamespace = ItemLog
+build_property.ProjectDir = /Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Posessors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zZXNzb3JzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Posessors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zZXNzb3JzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Posessors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zZXNzb3JzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Posessors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zZXNzb3JzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Posessors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zZXNzb3JzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/PossRecords/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zc1JlY29yZHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/PossRecords/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zc1JlY29yZHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/PossRecords/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zc1JlY29yZHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/PossRecords/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zc1JlY29yZHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/PossRecords/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zc1JlY29yZHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gdhu5qbhkr
