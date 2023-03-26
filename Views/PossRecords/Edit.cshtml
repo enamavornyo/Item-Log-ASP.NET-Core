@@ -4,9 +4,9 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Return Item</h1>
 
-<h4>PosessionRecord</h4>
+<h4>Return an Item</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -29,9 +29,9 @@
                 <span asp-validation-for="ItemId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="RequestDate" class="control-label"></label>
-                <input asp-for="RequestDate" class="form-control" />
-                <span asp-validation-for="RequestDate" class="text-danger"></span>
+                <label hidden asp-for="RequestDate" class="control-label"></label>
+                <input hidden asp-for="RequestDate" class="form-control" />
+                <span hidden asp-validation-for="RequestDate" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="ReturnDate" class="control-label"></label>

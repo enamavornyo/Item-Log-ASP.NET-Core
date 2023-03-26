@@ -61,6 +61,8 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
+                <a asp-controller="PossRecords" asp-action="Create" asp-route-id="@item.Id">Request Item</a> |
+                <a asp-controller="PossRecords" asp-action="Edit" asp-route-id="@item.Id">Return Item</a> |
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
