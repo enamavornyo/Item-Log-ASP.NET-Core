@@ -12,6 +12,10 @@
 <table class="table">
     <thead>
         <tr>
+            <th scope="row">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                </div>
             <th>
                 @Html.DisplayNameFor(model => model.ImageURL)
             </th>
@@ -39,6 +43,10 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <th scope="row">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                </div>
             <td>
                 @Html.DisplayFor(modelItem => item.ImageURL)
             </td>

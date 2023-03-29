@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ItemLog.Context;
 using ItemLog.Models;
+using ItemLog.Models.ViewModels;
 
 namespace ItemLog.Views
 {
@@ -22,7 +23,8 @@ namespace ItemLog.Views
         // GET: Items
         public async Task<IActionResult> Index()
         {
-              return _context.Items != null ? 
+            //stock code 
+            return _context.Items != null ? 
                           View(await _context.Items.ToListAsync()) :
                           Problem("Entity set 'DataContext.Items'  is null.");
         }

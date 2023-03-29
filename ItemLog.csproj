@@ -23,8 +23,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Context\" />
+    <None Remove="Models\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
+    <Folder Include="Models\ViewModels\" />
   </ItemGroup>
 </Project>
