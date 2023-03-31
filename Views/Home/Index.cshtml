@@ -1,9 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+
+    IEnumerable<Category> categories = (IEnumerable<Category>)ViewBag.Categories;
+
+
 }
 
+
 <div class="text-center">
+    @await Html.PartialAsync("_Categories", categories)
+
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-

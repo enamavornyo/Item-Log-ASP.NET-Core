@@ -8,14 +8,19 @@ namespace ItemLog.Models
     {
         public int Id { get; set; }
 
+
+        [Display(Name = "Admin")]
         public int AdminId { get; set; }
         [ForeignKey("AdminId")]
         public Admin? Admin { get; set; }
 
+        [Display(Name = "Posessor")]
         public int PosessorId { get; set; }
         [ForeignKey("PosessorId")]
         public Posessor? posessor { get; set; }
 
+
+        [Display(Name = "Item")]
         public int ItemId { get; set; }
         [ForeignKey("ItemId")]
         public Item? Item { get; set; }

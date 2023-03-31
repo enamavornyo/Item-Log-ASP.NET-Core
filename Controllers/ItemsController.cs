@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using ItemLog.Context;
 using ItemLog.Models;
 using ItemLog.Models.ViewModels;
+using ItemLog.TagHelpers;
+
 
 namespace ItemLog.Views
 {
@@ -21,12 +23,33 @@ namespace ItemLog.Views
         }
 
         // GET: Items
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string categorySlug = "", int p =1)
         {
+            int pageSize = 3;
+            ViewBag.PageNumber = p;
+            ViewBag.PageRange = pageSize;
+            ViewBag.CategorySlug = categorySlug;
+
+            if (categorySlug == "")
+            {
+                ViewBag.TotalPages = (int)Math.Ceiling((decimal)_context.Items.Count() / pageSize);
+
+                return View(await _context.Items.OrderByDescending(p => p.Id).Skip((p - 1) * pageSize).Take(pageSize).ToListAsync());
+            }
+
+            Category category = await _context.Categories.Where(c => c.Slug == categorySlug).FirstOrDefaultAsync();
+            if (category == null) return RedirectToAction("Index");
+
+            var ItemsByCategory = _context.Items.Where(p => p.CategoryId == category.Id);
+            ViewBag.TotalPages = (int)Math.Ceiling((decimal)ItemsByCategory.Count() / pageSize);
+
+            return View(await ItemsByCategory.OrderByDescending(p => p.Id).Skip((p - 1) * pageSize).Take(pageSize).ToListAsync());
+
+
             //stock code 
-            return _context.Items != null ? 
-                          View(await _context.Items.ToListAsync()) :
-                          Problem("Entity set 'DataContext.Items'  is null.");
+            //return _context.Items != null ? 
+            //              View(await _context.Items.ToListAsync()) :
+            //              Problem("Entity set 'DataContext.Items'  is null.");
         }
 
         // GET: Items/Details/5

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ItemLog.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230325204609_second")]
-    partial class second
+    [Migration("20230330120853_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,6 +59,27 @@ namespace ItemLog.Migrations
                     b.ToTable("Admins");
                 });
 
+            modelBuilder.Entity("ItemLog.Models.Category", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("ItemLog.Models.Item", b =>
                 {
                     b.Property<int>("Id")
@@ -73,9 +94,8 @@ namespace ItemLog.Migrations
                     b.Property<string>("Brand")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<long>("CategoryId")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -92,7 +112,13 @@ namespace ItemLog.Migrations
                     b.Property<string>("SerialNum")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Items");
                 });
@@ -162,6 +188,17 @@ namespace ItemLog.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Posessors");
+                });
+
+            modelBuilder.Entity("ItemLog.Models.Item", b =>
+                {
+                    b.HasOne("ItemLog.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("ItemLog.Models.PosessionRecord", b =>

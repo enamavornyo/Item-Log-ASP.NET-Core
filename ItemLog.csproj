@@ -24,9 +24,28 @@
   <ItemGroup>
     <None Remove="Context\" />
     <None Remove="Models\ViewModels\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Infrastructure\TagHelpers\" />
+    <None Remove="Infrastructure\Components\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Categories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="Models\ViewModels\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\TagHelpers\" />
+    <Folder Include="Infrastructure\Components\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Categories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Shared\Components\Cat_Default.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Shared\_NotificationPartial.cs">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Compile>
   </ItemGroup>
 </Project>

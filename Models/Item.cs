@@ -8,13 +8,16 @@ namespace ItemLog.Models
     {
         public int Id { get; set; }
 
+        public string Slug { get; set; } = string.Empty;
+
         public string ImageURL { get; set; } =  string.Empty;
 
         public bool Available { get; set; } = true;
 
-        [Display(Name = "Category")]
-        [Required(ErrorMessage = "Category is required")]
-        public string Category { get; set; } = string.Empty;
+        [Required, Range(1, int.MaxValue, ErrorMessage = "You must choose a category")]
+        public long CategoryId { get; set; }
+
+        public Category Category { get; set; }
 
         [Display(Name = "Brand")]
         public string? Brand { get; set; }
