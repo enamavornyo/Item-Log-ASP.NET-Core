@@ -1,0 +1,12 @@
+@model SmallItemListViewModel
+@if (Model != null)
+{
+    <p>Requested Item(s): <span class="badge badge-primary">@Model.TotalNum</span></p>
+    @*<p>Total: <b>@Model.TotalAmount.ToString("C2")</b></p>*@
+    <a class="btn btn-primary" asp-controller="ItemList" asp-action="Index">View List</a>
+    <a class="btn btn-danger" asp-controller="ItemList" asp-action="Clear">Clear List</a>
+}
+else
+{
+    <p class="lead m-0">No Items have been added to this request</p>
+}

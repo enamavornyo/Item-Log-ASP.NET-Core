@@ -28,7 +28,8 @@
     <None Remove="Infrastructure\TagHelpers\" />
     <None Remove="Infrastructure\Components\" />
     <None Remove="Views\Shared\Components\" />
-    <None Remove="Views\Shared\Components\Categories\" />
+    <None Remove="Views\Shared\Components\Categories %28copy%29\" />
+    <None Remove="Views\Home %28copy%29\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
@@ -37,10 +38,15 @@
     <Folder Include="Infrastructure\TagHelpers\" />
     <Folder Include="Infrastructure\Components\" />
     <Folder Include="Views\Shared\Components\" />
-    <Folder Include="Views\Shared\Components\Categories\" />
+    <Folder Include="wwwroot\media\" />
+    <Folder Include="wwwroot\media\Items\" />
+    <Folder Include="Views\Shared\Components\SmallItemList\" />
+    <Folder Include="Views\ItemList\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Shared\Components\Cat_Default.cshtml" />
+    <Content Remove="wwwroot\media\" />
+    <Content Remove="wwwroot\media\Items\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Views\Shared\_NotificationPartial.cs">

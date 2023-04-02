@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "asX2lHaGVuUZqXn8l3n/VAjZtA3hyh/AKPfmI96fPzo=",
+  "Hash": "uyHJOUZROD0TWuGLkSPHldBuZA3fYcJTtesp7gn5r1s=",
   "Source": "ItemLog",
   "BasePath": "_content/ItemLog",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/obj/Debug/net6.0/scopedcss/projectbundle/ItemLog.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/.DS_Store",
+      "SourceId": "ItemLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/",
+      "BasePath": "_content/ItemLog",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/css/site.css",
@@ -1069,6 +1086,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/.DS_Store",
+      "SourceId": "ItemLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/",
+      "BasePath": "_content/ItemLog",
+      "RelativePath": "media/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/media/.DS_Store"
+    },
+    {
+      "Identity": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/Items/noimage.png",
+      "SourceId": "ItemLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/",
+      "BasePath": "_content/ItemLog",
+      "RelativePath": "media/Items/noimage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/media/Items/noimage.png"
     }
   ]
 }

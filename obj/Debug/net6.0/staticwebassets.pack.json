@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/ItemLog.bundle.scp.css"
     },
     {
+      "Id": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -243,6 +247,14 @@
     {
       "Id": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/.DS_Store",
+      "PackagePath": "staticwebassets/media/.DS_Store"
+    },
+    {
+      "Id": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/Items/noimage.png",
+      "PackagePath": "staticwebassets/media/Items/noimage.png"
     },
     {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.ItemLog.Microsoft.AspNetCore.StaticWebAssets.props",
