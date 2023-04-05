@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uyHJOUZROD0TWuGLkSPHldBuZA3fYcJTtesp7gn5r1s=",
+  "Hash": "hhTYephc943WjLVRFTsCIAHHPrZ5z9HA1JI6+gUALqI=",
   "Source": "ItemLog",
   "BasePath": "_content/ItemLog",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/media/.DS_Store"
+    },
+    {
+      "Identity": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/Items/.DS_Store",
+      "SourceId": "ItemLog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/",
+      "BasePath": "_content/ItemLog",
+      "RelativePath": "media/Items/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/media/Items/.DS_Store"
     },
     {
       "Identity": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/Items/noimage.png",

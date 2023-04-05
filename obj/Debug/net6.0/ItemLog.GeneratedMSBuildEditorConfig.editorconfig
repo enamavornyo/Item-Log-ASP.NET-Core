@@ -16,6 +16,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Items/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Items/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Items/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Items/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Items/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSXRlbXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Shared/_NotificationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19Ob3RpZmljYXRpb25QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,28 +68,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbUxpc3QvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvQ3JlYXRlLmNzaHRtbA==
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items1/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMxL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRGVsZXRlLmNzaHRtbA==
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items1/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMxL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRGV0YWlscy5jc2h0bWw=
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items1/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMxL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRWRpdC5jc2h0bWw=
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items1/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMxL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvSW5kZXguY3NodG1s
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMxL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items/Index2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvSW5kZXgyLmNzaHRtbA==
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Items1/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMxL0luZGV4Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Posessors/Create.cshtml]
@@ -127,6 +163,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gq2vw0c0j6
 
 [/Users/mac/Documents/Web Dev/C\# /ItemLog/ItemLog/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s

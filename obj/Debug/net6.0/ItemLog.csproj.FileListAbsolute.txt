@@ -306,3 +306,4 @@
 /Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/obj/Debug/net6.0/ItemLog.pdb
 /Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/obj/Debug/net6.0/ItemLog.genruntimeconfig.cache
 /Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/obj/Debug/net6.0/ref/ItemLog.dll
+/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/obj/Debug/net6.0/scopedcss/Areas/Admin/Views/Shared/_Layout.cshtml.rz.scp.css

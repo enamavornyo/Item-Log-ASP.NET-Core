@@ -253,6 +253,10 @@
       "PackagePath": "staticwebassets/media/.DS_Store"
     },
     {
+      "Id": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/Items/.DS_Store",
+      "PackagePath": "staticwebassets/media/Items/.DS_Store"
+    },
+    {
       "Id": "/Users/mac/Documents/Web Dev/C# /ItemLog/ItemLog/wwwroot/media/Items/noimage.png",
       "PackagePath": "staticwebassets/media/Items/noimage.png"
     },

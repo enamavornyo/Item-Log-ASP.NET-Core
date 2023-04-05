@@ -1,0 +1,98 @@
+@model ItemLog.Models.Item
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Item</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label>Categories</label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories">
+                    <option value="0">Choose a category</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Brand" class="control-label"></label>
+                <input asp-for="Brand" class="form-control" />
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SerialNum" class="control-label"></label>
+                <input asp-for="SerialNum" class="form-control" />
+                <span asp-validation-for="SerialNum" class="text-danger"></span>
+            </div>
+
+            @*<input asp-for="Available" />
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Available" /> @Html.DisplayNameFor(model => model.Available)
+                    </label>
+                </div>*@
+
+            <div class="form-group">
+                <label asp-for="ImageURL" class="control-label"></label>
+                <input asp-for="ImageUpload" class="form-control" />
+                <img id="imgpreview" class="pt-2" />
+                <span asp-validation-for="ImageUpload" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-primary">Edit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@*<div class="col-xl-12" style="margin-top:40px;">
+        @foreach (var modeleState in ViewData.ModelState.Values)
+        {
+            foreach (var error in modeleState.Errors)
+            {
+                <h5 style="color:red;margin-top:8px;">@error.ErrorMessage</h5>
+            }
+        }
+    </div>*@
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    @*<script src="https://cdn.ckeditor.com/4.19.0/standard/ckeditor.js"></script>*@
+    <script>
+        $("#ImageUpload").change(function() {
+                readURL(this);
+        });
+
+        //CKEDITOR.replace( 'Description' );
+    </script>
+
+}
