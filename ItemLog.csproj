@@ -22,7 +22,6 @@
     <PackageReference Include="font-awesome" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Context\" />
     <None Remove="Models\ViewModels\" />
     <None Remove="Infrastructure\" />
     <None Remove="Infrastructure\TagHelpers\" />
@@ -39,7 +38,6 @@
     <None Remove="Infrastructure\Validation\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Context\" />
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\TagHelpers\" />
