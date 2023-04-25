@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ItemLog.Models
 {
-    public class Posessor
+    public class Requester
     {
         public int Id { get; set; }
 

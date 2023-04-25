@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ItemLog.Models
 {
-    public class PosessionRecord
+    public class Request
     {
         public int Id { get; set; }
 
@@ -14,10 +14,10 @@ namespace ItemLog.Models
         [ForeignKey("AdminId")]
         public Admin? Admin { get; set; }
 
-        [Display(Name = "Posessor")]
-        public int PosessorId { get; set; }
-        [ForeignKey("PosessorId")]
-        public Posessor? posessor { get; set; }
+        [Display(Name = "Requester")]
+        public int RequesterId { get; set; }
+        [ForeignKey("RequesterId")]
+        public Requester? Requester { get; set; }
 
 
         [Display(Name = "Item")]

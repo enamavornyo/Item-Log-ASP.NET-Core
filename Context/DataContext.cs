@@ -12,10 +12,10 @@ namespace ItemLog.Context
 
         //
         public DbSet<Item> Items { get; set; }
-        public DbSet<Posessor> Posessors { get; set; }
+        public DbSet<Requester> Requesters { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<PosessionRecord> PosessionRecords { get; set; }
+        public DbSet<Request> Requests { get; set; }
 
     }
 }
